@@ -31,8 +31,7 @@ function App() {
   const processImage = () => {
     console.log("Start processing Image!");
     setLoading(true);
-    const url_service =
-      "http://ec2-3-80-180-170.compute-1.amazonaws.com:8000/pest_detection";
+    const url_service = "http://52.54.65.208:8000/pest_detection";
     const formData = new FormData();
     formData.append("file", imgFile);
     const config = {
